@@ -1,0 +1,406 @@
+#welcome {
+    position: relative;
+    height: 50vh;
+    margin-top: 40px;
+    background: url("https://picsum.photos/1600/700");
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.welcome-bg {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0, .5);
+}
+
+.sections_title{
+    text-align: center;
+    margin-top: 2%;
+}
+
+
+.useful-container{
+    background-color:#282828;
+    color: white;
+    padding: 2% 3%;
+    margin-bottom: 2%;
+    margin-top: 1px;
+    margin-bottom: 2%;
+    margin-right: 8%;
+    margin-left: 8%;
+}
+
+.useful-content{
+    text-align: center;
+    align-items: center;
+}
+
+/********* HOME *****************/
+
+.headline_h3{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 1%;
+}
+
+.container-features{
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-bottom: 1px;
+
+    display: flex;
+    align-items: center;
+}
+
+.feature-img{
+    position: relative;
+    width: 15%;
+}
+
+.image-fea{
+    width: 100%;
+    height: 100%;
+}
+
+.feature-text-bg{
+    background-color:#282828;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 20%;
+}
+
+.feature-text-hg{
+    text-align: left;
+    padding-left: 3%;
+}
+
+.feature-text{
+
+    text-align: left;
+    padding-left: 3%;
+
+}
+
+/*********** COURSES ************/
+
+#courses {
+    padding: 5% 0;
+    text-align: center;
+}
+
+
+.courses-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.courses-box {
+    position: relative;
+    width: 24%;
+    padding-bottom: 24%;
+    background: #001350;
+    color: white;
+}
+
+.box-content {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 3%;
+}
+
+
+
+/************* ABOUT US**************/
+
+.founders-bg{
+    background: #282828;
+}
+
+.founder{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    padding: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.founder-picture img{
+    border-radius: 100%;
+    margin-bottom: 5%;
+    width: 100%;
+}
+
+.founder-text{
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+.founders-container{
+    display: flex;
+    margin-top: 1px;
+    margin-bottom: 5%;
+    justify-content: center;
+}
+
+
+
+
+
+/************* CONTACT *******************/
+
+.address-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.address-box{
+    position: relative;
+    width: 22%;
+    padding-bottom: 22%;
+    background: #001350;
+    color: white;
+}
+
+.address-content{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 3%;
+
+}
+
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5%;
+    margin-top: 2%;
+}
+
+.form-content{
+    display: flex;
+    margin-bottom: 3px;
+    width: 60%;
+    justify-content: center;
+}
+
+.content-column-1{
+    width: 30%;
+    background: #282828;
+    color: white;
+    padding-right: 8px;
+    margin-right: 5px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.content-column-1a{
+    width: 30%;
+    background: #282828;
+    color: white;
+    padding-right: 8px;
+    margin-right: 5px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+
+.content-column-2{
+    width: 70%;
+    border: 2px solid  #282828;
+}
+
+.form-input{
+    width: 100%;
+}
+
+#div_submit{
+    margin-top: 2%;
+}
+
+#submit{
+    width: 150%;
+}
+
+/************ ***********************/
+
+@media only screen and (max-width: 1400px) {
+
+
+    .feature-img{
+        width: 30%;
+    }
+
+        
+    .form-content{
+        width: 80%;
+    }
+
+
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .address-box{
+        width: 26%;
+        padding-bottom: 26%;
+        margin-bottom: 2%;
+    }
+
+
+    .feature-img{
+        width: 250px;;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 960px) {
+    .courses-container {
+        flex-wrap: wrap;
+    }
+
+    .courses-box {
+        width: 49%;
+        padding-bottom: 49%;
+        margin-bottom: 2%;
+    }
+
+    #webinar-container{
+        height: 70vh;
+    }
+
+
+}
+
+@media only screen and (max-width: 875px) {
+
+    .address-box{
+        width: 36%;
+        padding-bottom: 36%;
+        margin-bottom: 2%;
+    }
+
+
+    .container-features{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .feature-img{
+        width: 28%;
+    }
+
+        
+    .founders-container{
+        display: flex;
+        flex-direction: column;
+        
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .founder{
+        display: flex;
+        width: 60%;
+        padding: 2%;
+        margin-left: 6%;
+        margin-right: 6%;
+        margin-bottom: 1%;
+    }
+
+
+}
+
+@media only screen and (max-width: 670px) {
+
+    .address-box{
+        width: 48%;
+        padding-bottom: 48%;
+        margin-bottom: 2%;
+    }
+    
+    .form-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .content-column-1{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-bottom: 2px;
+        padding-left: 5px;
+    }
+    
+    .content-column-1a{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 5px;
+    }
+    
+    
+    .content-column-2{
+        width: 100%;
+    }
+
+    
+}
+
+@media only screen and (max-width: 480px) {
+    .courses-container {
+        flex-wrap: wrap;
+    }
+
+    .courses-box {
+        width: 100%;
+        padding-bottom: 100%;
+        margin-bottom: 2%;
+    }
+
+    #webinar-container{
+        height: 100%;
+    }
+
+    .container-features{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .feature-img{
+        width: 43%;
+    }
+
+}
+
